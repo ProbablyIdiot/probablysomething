@@ -1,0 +1,10 @@
+.body {
+
+}
+
+.mainHolder {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-self: center;
+}
