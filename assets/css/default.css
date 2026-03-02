@@ -12,7 +12,7 @@
 	background-color: #0D0023;
 	color:  #fbffeb ;
 	letter-spacing: 0.08em;
-	font-size: 1.1rem;
+	font-size: 1em;
 }
 
 .mainHolder {
@@ -23,14 +23,22 @@
 	gap: 30px;
 }
 
-.mainContentHolder {
+.mainContentTitle {
 	color: #b2ff00;
 	font-family: pixelArialBold;
+	position: relative;
+	z-index: 2;
+	width: 65px;
+	margin-left: 20px;
+	font-size: 1.2em;
 }
 
 .mainContent {
 	font-family: pixelArial;
-	border: 2px solid #b2ff00;
+	border: 3px solid #b2ff00;
 	padding: 20px;
+	margin-top: -15px;
 	width: 800px;
+	position: relative;
+	z-index: 1;
 }
