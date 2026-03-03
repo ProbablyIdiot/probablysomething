@@ -9,7 +9,9 @@
 
 * {
 	font-family: pixelArial;
-	background-color: #0D0023;
+	/*background-image: url(/assets/images/bkgV1.png); */
+	background-repeat: repeat;
+	background-size: 30px;
 	color:  #fbffeb ;
 	letter-spacing: 0.08em;
 	font-size: 1em;
