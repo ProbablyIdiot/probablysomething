@@ -1,0 +1,25 @@
+@font-face {
+	font-family: siteTitle;
+	src: url(/assets/fonts/siteTitle.ttf);
+}
+
+.navbar {
+	padding: 5px;
+	padding-bottom: 20px;
+	margin-top: -25px;
+	width: 800px;
+	position: relative;
+	z-index: 1;
+}
+
+.title {
+	text-decoration: none;
+}
+
+.title > * {
+	margin: -5px;
+	display: inline;
+	font-family: siteTitle;
+	font-size: 2.5em;
+	color: #fbffeb;
+}

@@ -1,0 +1,29 @@
+@font-face {
+	font-family: pixelArial;
+	src: url(/assets/fonts/PIXEARG.TTF);
+}
+
+@font-face {
+	font-family: pixelArialBold;
+	src: url(/assets/fonts/PIXEAB.TTF);
+}
+
+* {
+	font-family: pixelArial;
+	color:  #fbffeb ;
+	letter-spacing: 0.08em;
+	font-size: 1em;
+	image-rendering: pixelated;
+}
+
+body {
+	background-color: #0d0023;
+}
+
+.mainHolder {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	gap: 30px;
+}
