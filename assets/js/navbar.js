@@ -1,16 +1,19 @@
+//start cycleCol(), then repeat each 8500 ms
+cycleCol();
+setInterval(cycleCol, 8500);
+
+
 function cycleCol () {
 	console.log("gfhjg")
 	document.querySelectorAll(".title span").forEach(function (el, i) {
 		setTimeout(function (){
-			if (getComputedStyle(el)["color"] == "#316eff") {
-				el.style.color = "#fbffeb";
+			//console.log(getComputedStyle(el)["color"])
+			if (getComputedStyle(el)["color"] == "rgb(251, 255, 235)") {
+				el.style.color = "#316eff";
 			} else {
-				el.style.color = "#316eff"
+				el.style.color = "#fbffeb"
 			}
 		}, i * 500);
 	});
 }
 
-var i = 0;
-
-setTimeout(cycleCol, 8500)
