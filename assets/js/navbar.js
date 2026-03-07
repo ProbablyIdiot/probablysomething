@@ -1,6 +1,6 @@
 //start cycleCol(), then repeat each 8500 ms
 cycleCol();
-setInterval(cycleCol, 8500);
+setInterval(cycleCol, 17000);
 
 dateSet();
 timeSet();
@@ -14,7 +14,7 @@ function cycleCol () {
 			} else {
 				el.style.color = "#ffc900"
 			}
-		}, i * 500);
+		}, i * 1000);
 	});
 }
 
