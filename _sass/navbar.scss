@@ -4,13 +4,18 @@
 }
 
 .navbar {
-	border: 3px solid #b2ff00;
-	padding: 20px;
-	width: 800px;
+	-border: 3px solid #fbffeb;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 855px;
 	position: relative;
 	z-index: 1;
 	display: flex;
 	flex-direction: row;
+}
+
+.leftSide {
+	width: 100%;
 }
 
 .title {
@@ -23,5 +28,26 @@
 	display: inline;
 	font-family: siteTitle;
 	font-size: 2.5em;
-	color: #fbffeb;
+	color: #ffc900;
+}
+
+.dateTime {
+	display: grid;
+	gap: 5px;
+	grid-template-columns: auto auto;
+	margin-top: .5em;
+}
+
+.dateTime > * {
+	font-family: siteTitle;
+}
+
+#dayMonth {
+	font-size: 1em;
+	text-align: end;
+}
+
+#time {
+	font-size: 2em;
+	white-space: nowrap;
 }
