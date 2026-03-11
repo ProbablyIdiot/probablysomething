@@ -5,7 +5,6 @@
 
 .navbar {
 	-border: 3px solid #fbffeb;
-	padding-top: 10px;
 	padding-bottom: 20px;
 	width: 855px;
 	position: relative;
@@ -31,6 +30,33 @@
 	color: #ffc900;
 }
 
+.btnHolder {
+	display: flex;
+	gap: 10px;
+	margin-top: 10px;
+	margin-left: -3px;
+	margin-right: 10px;
+}
+
+.btnHolder > * {
+	font-family: siteTitle;
+	font-size: 1.2em;
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	padding: 3px;
+	color: #fbffeb;
+	background-color: #ffc900;
+	border: 3px solid #fbffeb;
+	border-radius: 3px;
+}
+
+.btnHolder > *:hover {
+	color: #e7dcb9;
+	border: 3px solid #e7dcb9;
+	border-radius: 3px;
+}
+
 .dateTime {
 	display: grid;
 	gap: 5px;
@@ -42,12 +68,36 @@
 	font-family: siteTitle;
 }
 
+.divider {
+	margin: 2px;
+	border: 2px solid #fbffeb;
+}
+
 #dayMonth {
 	font-size: 1em;
 	text-align: end;
+	grid-column: span 2;
 }
 
 #time {
 	font-size: 2em;
 	white-space: nowrap;
+}
+
+#timezone {
+	display: flex;
+	height: 1.8em;
+	align-items: flex-end;
+}
+
+#blog {
+	background-color:  #f50070;
+}
+
+#projects {
+	background-color: #9aa0f5;
+}
+
+#guestbook {
+	background-color: #007d8d;
 }

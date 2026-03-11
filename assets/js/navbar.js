@@ -24,9 +24,9 @@ function dateSet () {
 
 	var dateObj = new Date();
 
-	var day = String(dateObj.getDate()).padStart(2, "0");
-	var month = String(dateObj.getMonth()).padStart(2, "0");
-	var year = String(dateObj.getFullYear()).substring(2);
+	var day = String(dateObj.getUTCDate()).padStart(2, "0");
+	var month = String(dateObj.getUTCMonth()).padStart(2, "0");
+	var year = String(dateObj.getUTCFullYear()).substring(2);
 
 	var date = day+"/"+month+"/"+year;
 	dayMonthObj.innerHTML += date;
@@ -38,8 +38,8 @@ function timeSet () {
 
 	var dateObj = new Date();
 
-	var minute = String(dateObj.getMinutes()).padStart(2, "0");
-	var hour = String(dateObj.getHours()).padStart(2, "0");
+	var minute = String(dateObj.getUTCMinutes()).padStart(2, "0");
+	var hour = String(dateObj.getUTCHours()).padStart(2, "0");
 
 	if (timeObj.innerHTML.includes(":")) {
 		timeObj.innerHTML = hour + " " + minute;
