@@ -1,8 +1,9 @@
-.mainbar > * {
-	margin:  10px;
+.sidebarl {
+	width: 20%;
+	min-width: 180px;
 }
 
-.mainContentTitle {
+.leftContentTitle {
 	background-color: #0d0023;
 	font-family: pixelArialBold;
 	position: relative;
@@ -12,10 +13,11 @@
 	font-size: 1.2em;
 }
 
-.mainContent {
+.leftContent {
+	border: 3px solid ;
 	border-radius: 3px;
 	padding: 20px;
-	margin-top: -25px;
+	margin-top: 98px;
 	position: relative;
 	z-index: 1;
 	text-wrap: stable;
