@@ -5,19 +5,20 @@
 
 .leftContentTitle {
 	background-color: #0d0023;
+	color: #ffc900;
 	font-family: pixelArialBold;
 	position: relative;
 	z-index: 2;
-	width: 65px;
-	margin-left: 20px;
+	width: 67px;
+	margin: 123px 0 0 10px;
 	font-size: 1.2em;
 }
 
 .leftContent {
-	border: 3px solid ;
+	border: 3px solid #ffc900;
 	border-radius: 3px;
 	padding: 20px;
-	margin-top: 98px;
+	margin-top: -15px;
 	position: relative;
 	z-index: 1;
 	text-wrap: stable;
