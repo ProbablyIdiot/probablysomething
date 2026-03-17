@@ -1,0 +1,29 @@
+.underConstruction {
+	padding: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	background-color: #fbffeb;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.constrTxt {
+	display: flex;
+	flex-direction: column;
+}
+
+.constrTxt > * {
+	color: #0c006b;
+}
+
+.constrTitle {
+	font-size: 1.5em;
+	margin: 0px;
+	font-family: pixelArialBold;
+}
+
+.constrIcon {
+	width: 100px;
+	margin-right: 10px;
+}
