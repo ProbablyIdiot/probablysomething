@@ -3,6 +3,7 @@ title: 🏠 Home
 layout: default
 colour: "#b2ff00"
 ---
+{{"test" | size}}
 <link rel="stylesheet" src="assets/css/home.css">
 
 <div class="underConstruction">
@@ -12,7 +13,23 @@ colour: "#b2ff00"
 		<p>Many features/pages will be uncomplete/broken. Always use ctrl+R to get the latest version.</p>
 	</div>
 </div>
-<div class="changelog">
-	
+<div style="float: right;">
+	<div class="changelogTitle">
+		Changelog
+	</div>
+	<div class="changelog">
+		{% for item in site.data.changelog %}
+			{{item}}
+		{% endfor %}
+		
+	</div>
 </div>
-fdffggfhfgfdfdfgdfgfggdfsghafghdghjsdfhgfds sdghfahgdfs ghffgsdha sdfghgf dsagf gsdafg edsf
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit tortor, pretium eget justo et, iaculis suscipit mauris. Donec vehicula lectus at tempor sodales. Curabitur eleifend libero id nunc imperdiet, consectetur scelerisque dui eleifend. Ut consequat justo non turpis gravida sodales. Praesent iaculis elit eu sem placerat, sit amet porttitor odio vehicula. Morbi interdum semper hendrerit. Suspendisse potenti. Praesent sed pretium turpis, ut egestas magna. Nam non metus metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam finibus aliquet dui id maximus. Duis blandit molestie nulla, vel blandit erat congue rutrum. Vestibulum ut commodo purus, cursus tempor nibh. Cras posuere sem eget odio fermentum ullamcorper.
+
+Cras quis fringilla lacus. Quisque vestibulum elementum sem, a malesuada massa eleifend nec. Aenean eget volutpat risus. Pellentesque imperdiet, felis ut ultricies porttitor, neque eros commodo quam, vitae vestibulum lacus dolor ut ex. Phasellus elementum lobortis bibendum. Sed ornare, nunc sit amet viverra sodales, odio orci placerat dui, quis laoreet tellus nulla ut libero. Donec at interdum lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Vivamus molestie est non orci blandit auctor. Quisque interdum luctus diam ac eleifend. In venenatis dolor turpis, vel aliquam purus venenatis sit amet. Sed euismod luctus varius. Donec sit amet venenatis urna.
+
+Aenean vel neque eleifend, facilisis ipsum sed, accumsan libero. Aliquam cursus lobortis diam a commodo. Curabitur porta consectetur est nec placerat. Aliquam in felis nulla. Nam vel interdum enim, non luctus dolor. Aliquam a sodales augue. Mauris volutpat tortor eget diam volutpat facilisis. Nulla congue diam in nibh hendrerit, eget convallis nibh faucibus. Curabitur ut mauris at est malesuada accumsan.
+
+In hac habitasse platea dictumst. Maecenas dignissim quis ipsum sit amet tincidunt. Ut non arcu condimentum lacus vehicula tempus. Suspendisse tincidunt quam sed quam porttitor porttitor. Ut quis fermentum neque. Vivamus eget ipsum non felis viverra ullamcorper in et lorem. Morbi nec commodo augue, vel placerat tellus. Donec hendrerit fringilla lacus ut venenatis. Nunc pulvinar interdum purus ut dapibus. Phasellus ultricies nunc vitae auctor dictum. Ut vitae enim et magna luctus lobortis. Suspendisse lorem dui, interdum eu porta sed, elementum sit amet quam. Phasellus condimentum odio ut dui molestie laoreet. Vestibulum at nulla quis elit congue ullamcorper. Nulla pharetra, velit sed interdum lacinia, arcu arcu blandit mi, a porta ligula turpis at nibh.
+
+Suspendisse pretium massa non ante pellentesque varius. Morbi venenatis vel mauris sed eleifend. Donec accumsan arcu nec ipsum laoreet, lobortis venenatis velit placerat. Suspendisse a ipsum a eros auctor lacinia. Fusce tincidunt quis ante a interdum. Etiam sed fringilla urna. Aliquam at tortor hendrerit, facilisis quam id, porta velit. Nullam maximus quam eget ex faucibus, in maximus lectus posuere. Donec varius ipsum magna, sed sollicitudin diam tristique laoreet. Proin cursus libero eget viverra varius. Etiam vitae consequat risus. Nulla consequat fermentum massa feugiat tempor. Nulla pretium egestas blandit. 
