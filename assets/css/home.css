@@ -47,4 +47,11 @@
 	z-index: 1;
 	text-wrap: stable;
 	width: 200px;
+	height: 200px;
+	overflow: scroll;
+}
+
+.changeDate {
+	font-size: 0.8em;
+	color: #316eff;
 }

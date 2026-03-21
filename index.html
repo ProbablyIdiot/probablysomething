@@ -3,7 +3,7 @@ title: 🏠 Home
 layout: default
 colour: "#b2ff00"
 ---
-{{"test" | size}}
+
 <link rel="stylesheet" src="assets/css/home.css">
 
 <div class="underConstruction">
@@ -19,7 +19,12 @@ colour: "#b2ff00"
 	</div>
 	<div class="changelog">
 		{% for item in site.data.changelog %}
-			{{item}}
+			<div class="changeDate">
+				{{item.date}}
+			</div>
+			<div class="changeTxt">
+				{{item.change}}
+			</div>
 		{% endfor %}
 		
 	</div>
