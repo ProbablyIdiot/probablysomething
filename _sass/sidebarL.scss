@@ -9,7 +9,7 @@
 	font-family: pixelArialBold;
 	position: relative;
 	z-index: 2;
-	width: 117px;
+	width: 80px;
 	margin: 123px 0 0 10px;
 	font-size: 1.2em;
 }
@@ -22,4 +22,33 @@
 	position: relative;
 	z-index: 1;
 	text-wrap: stable;
+	text-align: center;
+}
+
+.myBtn {
+	text-align: center;
+}
+
+.myBtnCode {
+	overflow: scroll;
+	background-color: #0d0023;
+	font-size: 0.75em;
+	resize: none;
+	width: 200px;
+}
+
+.neighbourBtnHolder {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 10px;
+	row-gap: 10px;
+	margin: 10px;
+}
+
+.myLinks {
+	text-align: left;
+}
+
+.myLinks > li > a{
+	color: #b213b9;
 }
