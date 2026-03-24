@@ -6,10 +6,11 @@
 .rightContentTitle {
 	background-color: #0d0023;
 	color: #316eff;
-	font-family: pixelArialBold;
+	font-family: pixelArial;
 	position: relative;
 	z-index: 2;
-	width: 224px;
+	width: min-content;
+	text-wrap: nowrap;
 	margin: 123px 0 0 10px;
 	font-size: 1.2em;
 }

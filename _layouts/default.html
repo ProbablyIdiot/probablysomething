@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>{{ page.title }}</title>
-		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="/assets/css/styles.css">
 	</head>
 	<body>
 		<div class="mainHolder">
@@ -15,9 +15,9 @@
 			</div>
 			<div class="mainbar">
 				{% include navbar.html %}
-				<div class="mainContentTitle" style="color: {{ page.colour }}">
-					Title
-				</div>
+				<h1 class="mainContentTitle" style="color: {{ page.colour }}">
+					{{ page.contentTitle }}
+				</h1>
 				<div class="mainContent"style="border: 3px solid {{ page.colour }}">
 					{{ content }}
 				</div>

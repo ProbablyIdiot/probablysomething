@@ -4,10 +4,11 @@
 
 .mainContentTitle {
 	background-color: #0d0023;
-	font-family: pixelArialBold;
+	font-family: pixelArial;
 	position: relative;
 	z-index: 2;
-	width: 65px;
+	width: min-content;
+	text-wrap: nowrap;
 	margin-left: 20px;
 	font-size: 1.2em;
 }
