@@ -1,0 +1,7 @@
+collections:
+  musicratings:
+    output: true
+  gameratings:
+    output: true
+  tvratings:
+    output: true

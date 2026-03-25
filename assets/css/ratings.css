@@ -1,0 +1,9 @@
+.baseRatingsHolder {
+	display: flex;
+	flex-direction: row;
+}
+
+.baseAlbumCover {
+	height: 100px;
+
+}

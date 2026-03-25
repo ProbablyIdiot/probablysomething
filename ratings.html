@@ -3,4 +3,15 @@ title: ⭐ Ratings
 contentTitle: Ratings
 layout: default
 colour: "#b213b9"
+customStyle: "/assets/css/ratings.css"
 ---
+
+<link rel="stylesheet" src="/assets/css/ratings.css">
+
+<div class="baseRatingsHolder">
+	{% for post in site.musicratings limit:5%}
+		<img src="{{ post.albumCover }}"  class="baseAlbumCover">
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			{{ post.excerpt}}
+	{% endfor %}
+</div>
