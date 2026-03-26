@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: musicReview
 author: ProbablyIdiot
-contentTitle: Test post
 colour: "#f50070"
+customStyle: "/assets/css/musicreview.css"
+contentTitle: Tourist History
+contentArtist: Two Door Cinema Club
+contentYear: 2010
 albumCover: "/assets/images/covers/touristHistory.jpg"
 ---
 

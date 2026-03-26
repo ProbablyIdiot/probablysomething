@@ -1,9 +1,41 @@
-.baseRatingsHolder {
-	display: flex;
-	flex-direction: row;
+.ratingsHolder {
+	display: grid;
+	grid-template-columns: 47.5% 47.5%;
+	gap: 5%;
+	margin: 20px;
 }
 
-.baseAlbumCover {
-	height: 100px;
+.ratingsHolder > a {
+	text-decoration: none;
+}
 
+.ratingsHolder > a:hover {
+	text-decoration: solid;
+}
+
+.albumItem {
+	display: flex;
+	flex-direction: row;
+	border-radius: 3px;
+	border: 3px #96ffc2 solid;
+}
+
+.albumItem:hover {
+	transform: scale(1.2);
+}
+
+.albumCover{
+	height: 100px;
+	image-rendering: smooth;
+	margin: 3px;
+}
+
+.albumInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.albumInfo > * {
+	margin: 3px;
 }
