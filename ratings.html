@@ -7,7 +7,7 @@ customStyle: "/assets/css/ratings.css"
 ---
 
 <div class="ratingsHolder">
-	{% for post in site.musicratings limit:5%}
+	{% for post in site.musicratings %}
 		<a href="{{ post.url }}"><div class="albumItem">
 			<img src="{{ post.albumCover }}"  class="albumCover">
 			<div class="albumInfo">

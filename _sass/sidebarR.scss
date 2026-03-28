@@ -24,3 +24,27 @@
 	z-index: 1;
 	text-wrap: stable;
 }
+
+.sidebarAlbumItem {
+	display: flex;
+	flex-direction: row;
+	border-radius: 3px;
+	border: 3px #96ffc2 solid;
+	margin-top: 3px;
+}
+
+.sidebarAlbumCover{
+	height: 100px;
+	image-rendering: smooth;
+	margin: 3px;
+}
+
+.sidebarAlbumInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.sidebarAlbumInfo > * {
+	margin: 3px;
+}

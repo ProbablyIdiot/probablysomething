@@ -1,3 +1,5 @@
+collections_dir: collections
+
 collections:
   musicratings:
     output: true

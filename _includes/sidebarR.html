@@ -2,8 +2,14 @@
 	Current Status
 </h1>
 <div class="rightContent">
-	<div class="curListenTitle">
-
-	</div>
-	
+	Listening to:
+	{% assign post = site.musicreviews | where:"path", "/_musicreviews/Tourist History.md" %}
+	<a href="{{ post.url }}"><div class="sidebarAlbumItem">
+		<img src="{{ post.albumCover }}"  class="sidebarAlbumCover">
+		<div class="sidebarAlbumInfo">
+			<h1>{{ post.contentTitle }}</h1>
+			<p>{{ post.contentYear }}</p>
+			<p>{{ post.contentArtist }}</p>
+		</div>
+	</div></a>
 </div>
