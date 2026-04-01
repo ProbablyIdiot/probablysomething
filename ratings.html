@@ -7,7 +7,8 @@ customStyle: "/assets/css/ratings.css"
 ---
 
 <div class="ratingsHolder">
-	{% for post in site.musicratings %}
+	{% assign ratingsCol = site.musicratings | sort: "contentArtist" %}
+	{% for post in ratingsCol | sort: "contentArtist" %}
 		<a href="{{ post.url }}"><div class="albumItem">
 			<img src="{{ post.albumCover }}"  class="albumCover">
 			<div class="albumInfo">

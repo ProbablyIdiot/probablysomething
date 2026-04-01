@@ -9,10 +9,6 @@
 	text-decoration: none;
 }
 
-.ratingsHolder > a:hover {
-	text-decoration: solid;
-}
-
 .albumItem {
 	display: flex;
 	flex-direction: row;
