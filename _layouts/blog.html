@@ -19,9 +19,9 @@ layout: default
 Artalk.init({
   el:        '#Comments',                       // Selector of the bound element
   pageKey:   '{{ page.url }}',                         // Permalink
-  pageTitle: 'About Introducing Artalk',        // Page title (leave blank to auto-fetch)
+  pageTitle: '{{ page.title }}',        // Page title (leave blank to auto-fetch)
   server:    'https://comments.probablysomething.co.uk',  // Artalk server address
-  site:      'testing',                     // Your site name
+  site:      'ProbablySomething',                     // Your site name
 });
 artalk.setDarkMode(true)
 </script>
