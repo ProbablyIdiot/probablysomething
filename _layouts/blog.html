@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<h1 style="font-size: 2em;">{{ page.title }}</h1>
+<p>{{ page.author }} - {{ page.date | date_to_string }}</p>
+<hr>
+
+{{ content }}
+
+<!-- CSS -->
+<link href="https://comments.probablysomething.co.uk/dist/Artalk.css" rel="stylesheet" />
+
+<!-- JS -->
+<script src="https://comments.probablysomething.co.uk/dist/Artalk.js"></script>
+
+<!-- Artalk -->
+<div id="Comments"></div>
+<script>
+Artalk.init({
+  el:        '#Comments',                       // Selector of the bound element
+  pageKey:   '{{ page.url }}',                         // Permalink
+  pageTitle: 'About Introducing Artalk',        // Page title (leave blank to auto-fetch)
+  server:    'https://comments.probablysomething.co.uk',  // Artalk server address
+  site:      'testing',                     // Your site name
+});
+artalk.setDarkMode(true)
+</script>
+
