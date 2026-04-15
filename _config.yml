@@ -1,4 +1,5 @@
 collections_dir: collections
+encoding: UTF-8
 
 collections:
   musicratings:

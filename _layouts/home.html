@@ -1,16 +1,12 @@
 ---
-title: 🏠 Home
-contentTitle: Home
 layout: default
-colour: "#b2ff00"
-customStyle: "/assets/css/home.css"
 ---
 
 <div class="underConstruction">
 	<img class="constrIcon" src="/assets/images/warningIcon.png">
 	<div class="constrTxt">
 		<h1 class="constrTitle"> This site is under construction! </h1>
-		<p>Many features/pages will be uncomplete/broken. Designed for a 16:9 monitor on a computer.</p>
+		<p>Many features/pages will be incomplete/broken. Designed for a 16:9 monitor on a computer.</p>
 	</div>
 </div>
 <div style="float: right;">
@@ -29,4 +25,4 @@ customStyle: "/assets/css/home.css"
 
 	</div>
 </div>
-Welcome to my website!
+{{ page.content | markdownify }}
