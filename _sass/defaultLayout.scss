@@ -1,12 +1,13 @@
 @font-face {
 	font-family: pixelArial;
-	src: url(/assets/fonts/PIXEARG.woff2);
-	size-adjust: 90%;
+	src: url(/assets/fonts/ari-w9500.woff2);
+	size-adjust: 125%;
 }
 
 @font-face {
 	font-family: pixelArial;
-	src: url(/assets/fonts/PIXEAB.woff2);
+	src: url(/assets/fonts/ari-w9500-bold.woff2);
+	size-adjust: 125%;
 	font-weight: bold;
 }
 
@@ -14,7 +15,6 @@
 	font-family: pixelArial;
 	color:  #fbffeb ;
 	letter-spacing: 0.08em;
-	font-size: 1em;
 }
 
 body {
