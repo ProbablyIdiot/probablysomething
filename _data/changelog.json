@@ -2,5 +2,9 @@
 	{
 		"date": "18/03/2026",
 		"change": "Added changelog file."
+	},
+	{
+		"date": "19/04/2026",
+		"change": "Changed how albums are displayed on the ratings page/sidebar to fix long album names."
 	}
 ]
