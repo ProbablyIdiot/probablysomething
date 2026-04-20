@@ -14,7 +14,8 @@ layout: default
 		Changelog
 	</h1>
 	<div class="changelog">
-		{% for item in site.data.changelog %}
+		{% assign sorted = site.data.changelog | sort: 'date' | reverse %}
+		{% for item in sorted %}
 			<div class="changeDate">
 				{{item.date}}
 			</div>

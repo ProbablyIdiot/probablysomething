@@ -35,20 +35,20 @@
 	position: relative;
 	z-index: 2;
 	width: min-content;
-	margin-left: 45px;
-	font-size: 1.5em;
+	margin-left: 60px;
+	font-size: 1em;
 }
 
 .changelog {
 	border: 3px solid #ff9bd9;
 	border-radius: 3px;
 	padding: 20px;
-	margin-top: -25px;
+	margin: -25px 0px 10px;
 	position: relative;
 	z-index: 1;
 	text-wrap: stable;
 	width: 200px;
-	height: 200px;
+	height: 190px;
 	overflow: scroll;
 }
 
