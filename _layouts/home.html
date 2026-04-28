@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<link rel="alternate" type="application/rss+xml" href="/rss/changeGen.xml" title="ProbablySomething Changelog">
 
 <div class="underConstruction">
 	<img class="constrIcon" src="/assets/images/warningIcon.png">
@@ -25,5 +26,8 @@ layout: default
 		{% endfor %}
 
 	</div>
+	<a class="changelogRss" href="/rss/changeGen.xml">
+		Add to RSS
+	</a>
 </div>
 {{ content }}
