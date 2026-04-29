@@ -5,7 +5,11 @@ layout: default
 colour: "#f50070"
 ---
 
-<h1>Latest Posts:</h1>
+<div class="titleHolder">
+	<h1>Latest Posts:</h1>
+	<a href="/rss/feedGen.xml"><img src="/assets/buttons/rss-button.gif" class="titleBtn"></a>
+</div>
+
 
 <ul>
 	{% for post in site.posts %}
@@ -15,3 +19,12 @@ colour: "#f50070"
 		</li>
 	{% endfor %}
 </ul>
+
+<style>
+	.titleHolder {
+		display: flex;
+		flex-flow: row nowrap;
+		width: 100%;
+		justify-content: space-between;
+	}
+</style>

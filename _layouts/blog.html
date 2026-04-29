@@ -1,12 +1,19 @@
 ---
 layout: default
 ---
-<h1 style="font-size: 2em;">{{ page.title }}</h1>
-<p>{{ page.author }} - {{ page.date | date_to_string }}</p>
+<div class="titleHolder">
+	<div>
+		<h1 style="font-size: 2em;">{{ page.title }}</h1>
+		<p>{{ page.author }} - {{ page.date | date_to_string }}</p>
+	</div>
+	<a href="/rss/feedGen.xml"><img src="/assets/buttons/rss-button.gif" class="titleBtn"></a>
+</div>
+
 <hr>
 
 {{ content }}
 
+<hr>
 <!-- CSS -->
 <link href="https://comments.probablysomething.co.uk/dist/Artalk.css" rel="stylesheet" />
 
@@ -26,3 +33,11 @@ Artalk.init({
 artalk.setDarkMode(true)
 </script>
 
+<style>
+	.titleHolder {
+		display: flex;
+		flex-flow: row nowrap;
+		width: 100%;
+		justify-content: space-between;
+	}
+</style>
