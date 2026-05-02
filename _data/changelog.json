@@ -10,5 +10,9 @@
 	{
 		"date": "20/04/2026",
 		"change": "Fixed changelog entries showing in the wrong order, changed NavBar clock to show British Summer Time, removed extra music reviews and actually put in a real one."
+	},
+	{
+		"date": "02/05/2026",
+		"change": "Added css file for blog posts, uploaded Thoughts on GBR post."
 	}
 ]
