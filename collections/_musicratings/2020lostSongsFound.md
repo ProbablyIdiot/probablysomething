@@ -11,6 +11,7 @@ albumCover: "/assets/images/covers/lostSongs(Found).jpg"
 ---
 
 **Lost Songs (Found) is an odd album.**
+
 While it has a lot of the style of a classic TDCC album, it's not quite like Beacon or Tourist History. While the original opener to this review was going to be "An EP where most songs should've stayed lost", after re-listening it's not nearly as bad as I remember (admittedly, that was a very low bar, but still).
 
 Many of the songs on this EP overuse electronic/synth sounds. Not In This Town for example, would be much improved with less of this, as in it's current state it isn't playlist-worthy. Tiptoe is just an all-round terrible song in my opinion. People who enjoy Pyramid might like this one, as to me they both seem quite similar to me. Finally, Too Much Coffee rounds out the EP on an odd note that I can't quite bring myself to enjoying.
