@@ -1,4 +1,5 @@
 ---
+title: Thoughts on Great British Railways
 layout: blog
 author: ProbablyIdiot
 contentTitle: Thoughts on Great British Railways
