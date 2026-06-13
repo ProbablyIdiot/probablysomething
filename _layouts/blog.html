@@ -2,9 +2,17 @@
 layout: default
 ---
 <div class="titleHolder">
-	<div>
+	<div style="width: 100%;">
 		<h1 style="font-size: 2em;">{{ page.title }}</h1>
-		<p>{{ page.author }} - {{ page.date | date_to_string }}</p>
+		<p style="float: left;">{{ page.author }} - {{ page.date | date_to_string }}</p>
+		<p style="float: right;">
+			{% capture words %}
+				{{ content | number_of_words | minus: 180 }}
+			{% endcapture %}
+			{% unless words contains '-' %}
+				<i class="icon ion-md-time" style="padding-right: 8px;"></i>{{ words | plus: 180 | divided_by: 180 | append: ' minute read' }}
+			{% endunless %}
+		</p>
 	</div>
 	<a href="/rss/feedGen.xml"><img src="/assets/buttons/rss-button.gif" class="titleBtn"></a>
 </div>

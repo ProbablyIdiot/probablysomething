@@ -9,7 +9,7 @@ customStyle: "/assets/css/post.css"
 
 A mildly coherant rambling on Birmingham and regional identities.
 
-![Street art mural of "Be Bold, Be Birmingham" in Degbeth](/assets//images/blogImgs/290526-BeBoldBeBrum.jpg)
+![Street art mural of "Be Bold, Be Birmingham" in Degbeth](/assets/images/blogImgs/290526-BeBoldBeBrum.jpg)
 
 This post was promted by this week's penultimate (😭) episode of [Sonic Spectrum on URY](https://www.mixcloud.com/URY1350/sonic-spectrum-28052026/), where Lenny and Amy played anthems from their home cities (Newcastle and London). Even though I currently live in Worcester (and have for almost half my life), the post will mostly centre around Birmingham, as I understand why Worcester lacks a strong regional identity (hint: it's tiny).
 
