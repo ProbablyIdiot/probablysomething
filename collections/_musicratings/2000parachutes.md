@@ -1,13 +1,13 @@
 ---
-title: Parachutes Review
 layout: musicReview
-author: ProbablyIdiot
-colour: "#f50070"
+colour: "#007d8d"
 customStyle: "/assets/css/musicreview.css"
 contentTitle: Parachutes
 contentArtist: Coldplay
 contentYear: 2000
 albumCover: "/assets/images/covers/parachutes.jpg"
+review: true
+format: "cd"
 ---
 **Parachutes is perhaps the best album the band has released.** 
 

@@ -1,13 +1,13 @@
 ---
-title: Lost Songs (Found) Review
 layout: musicReview
-author: ProbablyIdiot
-colour: "#f50070"
+colour: "#007d8d"
 customStyle: "/assets/css/musicreview.css"
 contentTitle: Lost Songs (Found)
 contentArtist: Two Door Cinema Club
 contentYear: 2020
 albumCover: "/assets/images/covers/lostSongs(Found).jpg"
+review: true
+format: "streaming"
 ---
 
 **Lost Songs (Found) is an odd album.**

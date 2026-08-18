@@ -13,12 +13,11 @@
 	display: flex;
 	flex-direction: row;
 	border-radius: 3px;
-	border: 3px #96ffc2 solid;
-	background-color:  #0c006b ;
+	border: 3px #007d8d solid;
 }
 
 .albumItem:hover {
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 
 .albumCover{
@@ -43,4 +42,23 @@
 
 .albumInfo > * {
 	margin: 3px;
+}
+
+.libEntryHolder {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.libEntryLeft {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 70%;
+	align-items: center;
+}
+
+.libEntryName {
+	margin: 5px;
 }

@@ -1,0 +1,40 @@
+---
+title: 💿 Music/CDs
+contentTitle: Music/CDs
+layout: default
+colour: "#007d8d"
+customStyle: "/assets/css/music.css"
+---
+<h2>Reviews:</h2>
+<div class="ratingsHolder">
+	{% assign ratingsCol = site.musicratings | where_exp: "post", "post.review == true" %}
+	{% assign sortedRatingsCol = ratingsCol | sort: "contentArtist" %}
+	{% for post in sortedRatingsCol %}
+		<a href="{{ post.url }}"><div class="albumItem">
+			<img src="{{ post.albumCover }}"  class="albumCover">
+			<div class="albumInfo">
+				<h1 class="albumTitle">{{ post.contentTitle }}</h1>
+				<p>{{ post.contentYear }}</p>
+				<p>{{ post.contentArtist }}</p>
+			</div>
+		</div></a>
+	{% endfor %}
+</div>
+
+<h2>Library:</h2>
+<p>These are songs I own (mostly on CD), but a couple are digital downloads I've burned to CD-Rs.</p>
+<div class="libraryHolder">
+	<hr>
+	{% assign libraryCol = site.musicratings | where_exp: "album", "album.format == 'cd' or album.format == 'download'" %}
+	{% assign sortedLibraryCol = libraryCol | sort: "contentArtist" %}
+	{% for album in sortedLibraryCol %}
+		<div class="libEntryHolder">
+			<a class="libEntryLeft" href="{{ album.url }}">
+				<img src="{{ album.albumCover }}" style="width:50px;">
+				<h4 class="libEntryName">{{ album.contentTitle }}</h4>
+			</a>
+			<p style="margin: 5px;">{{ album.contentArtist }}</p>
+		</div>
+		<hr>
+	{% endfor %}
+</div>
