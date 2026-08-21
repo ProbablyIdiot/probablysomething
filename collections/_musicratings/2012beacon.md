@@ -1,11 +1,11 @@
 ---
+contentTitle: Beacon
 layout: musicReview
 colour: "#007d8d"
 customStyle: "/assets/css/musicreview.css"
-contentTitle: Hickey
-contentArtist: Royel Otis
-contentYear: 2025
-albumCover: "/assets/images/covers/hickey.jpg"
+contentArtist: Two Door Cinema Club
+contentYear: 2012
+albumCover: "/assets/images/covers/beacon.jpg"
 review: false
 format: "cd"
 ---

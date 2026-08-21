@@ -1,13 +1,13 @@
 ---
+contentTitle: Sofa Kings
 layout: musicReview
 colour: "#007d8d"
 customStyle: "/assets/css/musicreview.css"
-contentTitle: Hickey
 contentArtist: Royel Otis
-contentYear: 2025
-albumCover: "/assets/images/covers/hickey.jpg"
+contentYear: 2023
+albumCover: "/assets/images/covers/sofaKings.jpg"
 review: false
-format: "cd"
+format: "download"
 ---
 
 Review coming soon™

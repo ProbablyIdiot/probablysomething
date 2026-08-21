@@ -1,11 +1,11 @@
 ---
+contentTitle: Moon Music
 layout: musicReview
 colour: "#007d8d"
 customStyle: "/assets/css/musicreview.css"
-contentTitle: Hickey
-contentArtist: Royel Otis
-contentYear: 2025
-albumCover: "/assets/images/covers/hickey.jpg"
+contentArtist: Coldplay
+contentYear: 2024
+albumCover: "/assets/images/covers/moonMusic.jpg"
 review: false
 format: "cd"
 ---

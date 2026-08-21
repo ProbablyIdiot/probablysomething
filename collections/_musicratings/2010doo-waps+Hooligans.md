@@ -1,11 +1,11 @@
 ---
+contentTitle: doo-waps & hooligans
 layout: musicReview
 colour: "#007d8d"
 customStyle: "/assets/css/musicreview.css"
-contentTitle: Hickey
-contentArtist: Royel Otis
-contentYear: 2025
-albumCover: "/assets/images/covers/hickey.jpg"
+contentArtist: Bruno Mars
+contentYear: 2010
+albumCover: "/assets/images/covers/doo-waps+Hooligans.jpg"
 review: false
 format: "cd"
 ---

@@ -1,11 +1,11 @@
 ---
+contentTitle: Mylo Xyloto
 layout: musicReview
 colour: "#007d8d"
 customStyle: "/assets/css/musicreview.css"
-contentTitle: Hickey
-contentArtist: Royel Otis
-contentYear: 2025
-albumCover: "/assets/images/covers/hickey.jpg"
+contentArtist: Coldplay
+contentYear: 2011
+albumCover: "/assets/images/covers/myloXyloto.jpg"
 review: false
 format: "cd"
 ---
