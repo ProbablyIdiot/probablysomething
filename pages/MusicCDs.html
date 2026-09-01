@@ -33,7 +33,24 @@ customStyle: "/assets/css/music.css"
 				<img src="{{ album.albumCover }}" style="width:50px;">
 				<h4 class="libEntryName">{{ album.contentTitle }}</h4>
 			</a>
-			<p style="margin: 5px;">{{ album.contentArtist }}</p>
+			<p class="libEntryRight">{{ album.contentYear }} ● {{ album.contentArtist }}</p>
+		</div>
+		<hr>
+	{% endfor %}
+</div>
+<h2>Want to buy:</h2>
+<p>These are albums (EPs, singles, etc) that I want to buy (usually on CD). Some are unreleased, others I'm saving up for.</p>
+<div class="libraryHolder">
+	<hr>
+	{% assign futureCol = site.musicratings | where_exp: "album", "album.format == 'future'" %}
+	{% assign sortedFutureCol = futureCol | sort: "contentArtist" %}
+	{% for album in sortedFutureCol %}
+		<div class="libEntryHolder">
+			<a class="libEntryLeft" href="{{ album.url }}">
+				<img src="{{ album.albumCover }}" style="width:50px;">
+				<h4 class="libEntryName">{{ album.contentTitle }}</h4>
+			</a>
+			<p class="libEntryRight">{{ album.contentYear }} ● {{ album.contentArtist }}</p>
 		</div>
 		<hr>
 	{% endfor %}

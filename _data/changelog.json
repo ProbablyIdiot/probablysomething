@@ -46,10 +46,13 @@
 	{
 		"date": "23/08/2026",
 		"change": "Fixed misnamed digicam blog post, swapped out 'currently listening to' for the album I'm actually listening to."
-	}
-	,
+	},
 	{
 		"date": "23/08/2026",
 		"change": "Added Books page."
+	},
+	{
+		"date": "01/09/2026",
+		"change": "Added 'Want to buy' section to Music/CDs page, added release year to album info on the same page."
 	}
 ]
